@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "titulo": "Código Limpio: Manual de estilo para el desarrollo ágil de software",
+      "autor": "Robert C. Martin",
+      "categoria": "Programación",
+      "idioma": "Español",
+      "paginas": 464,
+      "lanzamiento": 2008,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Patrones de Diseño: Elementos de software orientado a objetos reutilizable",
+      "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "categoria": "Programación",
+      "idioma": "Español",
+      "paginas": 395,
+      "lanzamiento": 1994,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "titulo": "El Programador Pragmático: Tu camino hacia el dominio",
+      "autor": "David Thomas, Andrew Hunt",
+      "categoria": "Programación",
+      "idioma": "Español",
+      "paginas": 352,
+      "lanzamiento": 1999,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "titulo": "No me hagas pensar: Una aproximación a la usabilidad en la web",
+      "autor": "Steve Krug",
+      "categoria": "Diseño",
+      "idioma": "Español",
+      "paginas": 216,
+      "lanzamiento": 2000,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "titulo": "El Libro del Diseño No Profesional: Todo lo que necesitas para crear diseños fantásticos",
+      "autor": "Robin Williams",
+      "categoria": "Diseño",
+      "idioma": "Español",
+      "paginas": 240,
+      "lanzamiento": 2008,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "titulo": "Introducción a la Programación con Python",
+      "autor": "John Smith",
+      "categoria": "Programación",
+      "idioma": "Español",
+      "paginas": 200,
+      "lanzamiento": 2021,
+      "quantity": 1
+    },
+    {
+        "id": 7,
+        "titulo": "Aprende JavaScript en 30 días",
+        "autor": "Juan García",
+        "categoria": "Programación",
+        "idioma": "Español",
+        "quantity": 1
+      },
+      {
+        "id": 8,
+        "titulo": "Diseño de Experiencia de Usuario: Principios y Métodos",
+        "autor": "Javier Rodríguez",
+        "categoria": "Diseño",
+        "idioma": "Español",
+        "quantity": 1
+      },
+      {
+        "id": 9,
+        "titulo": "Algoritmos: Una guía práctica",
+        "autor": "María López",
+        "categoria": "Programación",
+        "idioma": "Español",
+        "quantity": 1
+      },
+      {
+        "id": 10,
+        "titulo": "Diseño Gráfico: Principios y Aplicaciones",
+        "autor": "Ana Ramírez",
+        "categoria": "Diseño",
+        "idioma": "Español",
+        "quantity": 1
+      },
+      {
+        "id": 11,
+        "titulo": "Python para Ciencia de Datos",
+        "autor": "Carlos Martínez",
+        "categoria": "Programación",
+        "idioma": "Español",
+        "quantity": 1
+      },
+      {
+        "id": 12,
+        "titulo": "El Lenguaje del Diseño: Composición y Estética",
+        "autor": "Luisa Fernández",
+        "categoria": "Diseño",
+        "idioma": "Español",
+        "quantity": 1
+      }
+  ]

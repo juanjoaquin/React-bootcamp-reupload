@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+    font-family: 'Montserrat', sans-serif;
+
+    box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.04);
+-webkit-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.04);
+-moz-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.04);
+font-weight: 600;
+}
+
+.nav_items a:hover {
+    color: rgb(71, 7, 175);
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+}
+
+.nav_items a {
+    margin: 0 15px; /* Ajusta el margen horizontal para separar los enlaces */
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 8px;
+}
+
+.nav_toggle {
+    display: none;
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .nav_items{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-available;        
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+        gap: 15px;
+        z-index: 1;
+    }
+    .nav_items.open{
+        transform: translateX(0) !important;
+    }
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;                
+        margin: 15px;
+        
+    }
+    .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background: rgb(14, 7, 7);
+        margin-bottom: 5px;
+        border-radius: 2px;             
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+        
+    }
+    .nav_toggle.open > span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .nav_toggle.open > span:nth-child(2){
+        display: none;
+    }
+    .nav_toggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+
+}

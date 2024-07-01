@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-home {
+    margin-top: 15px;
+    display: flex;
+    background-color: rgb(12, 7, 0);
+    width: 100%;
+}
+
+.programadorIMG {
+    width: 450px;
+    margin-right: 50px;
+    margin-left: 20%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.titulo-home {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    margin-top: 120px;
+    margin-left: 115px;
+}
+
+.p-home {
+    margin-top: 15px;
+}
+
+
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 155px;
+    margin-top: 39px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 9px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn20 {
+    background-image: linear-gradient(to right,
+            #667eea,
+            #764ba2,
+            #6b8dd6,
+            #8e37d7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+/* ---------------------------------------------- */
+
+.why-container {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 10%;
+}
+
+.why-h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+.why-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.whyimg {
+    width: 40rem;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+
+.alumnos-container {
+    margin-top: 15px;
+    display: flex;
+}
+
+.alumno-titulo {
+    margin-top: 90px;
+    /* margin-left: 180px; */
+    
+    margin-left: 160px;  
+}
+
+.alumno-h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+
+}
+
+.alumno-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+    max-width: 70%;
+}
+
+
+.alumno2 {
+    width: 40rem;
+    border-radius: 15px;
+    margin-left: 190px;
+}
+
+.gratis-container {
+    background-color: rgb(12, 7, 0);
+    margin-top: 5px;
+    height: 260px;
+
+}
+
+.gratis-titulos {
+    padding-top: 55px;
+}
+
+.h2-gratis {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.h3-gratis {
+    color: #a680cc;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.button-gratis {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #a753f7;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 600;
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+
+.button-gratis:hover {
+    background: rgba(134, 51, 228, 0.9);
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+/*---------------------------*/
+.home-staff-container {
+    margin-top: 35px;
+    background-color: #000000;
+
+}
+
+.home-staff-titulo {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.card-staff-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-top: 35px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.card-staff {
+    position: relative;
+    text-align: center;
+}
+
+.home-staff-h2 {
+    color: rgb(154, 99, 243);
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.home-staff-p {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #e7e7e7;
+}
+
+
+.card-staff .persona-img {
+    width: 300px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.texto-profe-card {
+    background-color: rgba(2, 0, 0, 0.205);
+    width: 100%;
+    margin-top: 12px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.h3-texto-profe-card {
+    font-family: 'Roboto', sans-serif;
+    color: #912bf1;
+
+}
+
+.card-staff .persona-img:hover {
+    filter: grayscale(0%);
+
+}
+
+.card-staff .texto-profe-card {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.p-texto-profe-card {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.texto-profe-card i {
+    margin-left: 5px;
+}
+
+.bili {
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.bili:hover {
+    color: #912bf1;
+}
+
+.bigi {
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.bigi:hover {
+    color: #912bf1;
+}
+
+
+
+
+/*-------------------------*/
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #0e0e10;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 2%;
+    margin-top: 5px;
+    
+}
+
+.card-top h1 {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+}
+
+.card-top img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 3px;
+    object-fit: cover;
+}
+
+
+
+.app-home {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+
+}
+
+.slick-list {
+    margin: 0 -10px;
+
+}
+
+.card-container {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 550px;
+    display: flex;
+    align-items: center;
+    /* Centrar verticalmente */
+    
+}
+
+.card-text-slider {
+
+    text-align: center;
+    color: whitesmoke;
+    /* margin-left: 180px; */
+    padding-left: 180px;
+}
+
+.card-container-h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    color: rgb(154, 99, 243);
+}
+
+.card-container-p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    /* Ajustar el espaciado entre líneas */
+
+}
+
+
+.card-h4 {
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    font-weight: 200;
+
+}
+
+.card-p {
+
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 3px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/*-------------------*/
+
+.FAQ-titulo {
+    display: flex;
+    background-color: #340863;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.faq-h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    align-items: center;
+}
+
+/*-------------------------*/
+
+/* .home-cursos-container {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around; 
+    
+
+}
+
+.home-card-top{
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+
+.home-cursos-card {
+    border: 3px black solid;
+    padding: 40px;
+    height: 500px;
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+
+    align-items: center; 
+
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-size: 18px;
+}
+*/
+
+.home-cards-titulo {
+    margin-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #000000;
+}
+
+.small-titulo {
+    font-size: 12px;
+    color: whitesmoke;
+    margin-left: 78px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.diseño-subtitulo {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-cards-titulo-h2 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 78px;
+}
+
+.button-card {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #8c1ee6;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-card:hover {
+    background-color: #7f06e2;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.card-container-curso {
+    display: flex;
+
+    /* Added flex-wrap to wrap cards on smaller screens */
+    justify-content: space-around;
+    background-color: #000000;
+    
+}
+
+.h2-children-card {
+    color: whitesmoke;
+}
+
+.card-curso-children {
+    /* flex: 1; */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    height: 480px;
+    max-width: 320px;
+    line-height: 2;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.home-cursos-container-dos {
+    background-color: #000000;
+}
+
+.home-cursos-sub {
+    margin-left: 78px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-curso-price {
+    color: whitesmoke;
+}
+
+
+
+
+
+/* -------------------------------------- */
+
+.home-empresas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.home-empresas-img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+}
+
+.imagenes-empresas {
+    width: 180px;
+    border-radius: 1.5rem;
+
+}
+
+
+.imagenes-empresas-ml {
+    width: 164px;
+    border-radius: 1.5rem;
+}
+
+.h1-container-empresas {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.h1-tutlo {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d0a7e7;
+}
+
+.h3-empresas-titulo {
+    color: rgb(230, 230, 230);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+.link-detalles-empresas {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.detalles-empresas {
+
+    font-family: 'Manrope', sans-serif;
+    color: rgb(174, 124, 240);
+
+}
+
+/* .link-empresas {
+    display: inline-block;
+    border: none;
+    padding: 8px 34px;
+    border-radius: 1rem;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #974abb;
+    color: rgb(255, 255, 255);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+.link-empresas:hover {
+    background-color: #925fc9;
+} */
+
+/*------------------------------------*/
+
+.img-container-homemarcas {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-homemarcas {
+    width: 40%;
+}
+
+.texto-container-homemarcas {
+    width: 40%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.h3-homemarcas {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-homemarcas {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagenes-homemarcas {
+    display: grid;
+    justify-content: center;
+}
+
+.img-home-marcas {
+    width: 200px;
+}
+
+.img-home-marcas-ml {
+    width: 164px;
+}
+
+/*-----------------------------*/
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 1280px) {
+    /* ----- HomeBanner.jsx  ------*/
+    
+    .container-home {
+        width: 100%;
+    }
+    .programadorIMG {
+        margin-right: 20px;
+    }
+
+    .titulo-home {
+        margin-left: 2px;
+        
+    }
+
+    .bn632-hover{
+        margin-left: 110px;
+        margin-top: 39px;
+        
+    }
+    /*----- WhyMocho.jsx ----- */
+    .alumnos-container {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .why-h2{
+        margin-top: 0;
+    }
+
+    /* Define una altura específica para el contenedor de la imagen y el texto */
+    .alumnos-container .alumno2 {
+        /* margin-left: 30px; Ajusta según tu diseño */
+    }
+
+    /* Ajusta el margen izquierdo del texto para evitar superposiciones */
+    .alumnos-container .alumno-titulo {
+        margin-top: 15px; /* Ajusta según tu diseño */
+        margin-left: 30px; /* Ajusta según tu diseño */
+    }
+    .card-container {
+        flex-direction: column;
+        
+    }
+    .card-text-slider{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .card-container-p {
+        margin-bottom: 20px;
+
+    }
+    .card-container-curso {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    /* .container-home {
+        display: none;
+    }
+    .header {
+        display: none;
+    }
+    .why-container {
+        display: none;
+    }
+    .alumnos-container {
+        display: none;
+    }
+    .home-staff-container {
+        display: none;
+    }
+    .card-container{
+        display: none;
+    }
+    .FAQ-titulo {
+        display: none;
+    }
+    .home-cards-titulo {
+        display: none;
+    }
+    .card-container-curso {
+        display: none;
+    }
+    .home-empresas-container {
+        display: none;
+    } */
+
+    .alumnos-container{
+        margin-left: 90px;
+        max-width: 90.5%;
+    }
+    .whyimg{
+        width: 30rem;
+        margin-right: 15px;
+    }
+    .alumno2 {
+        width: 30rem;
+        margin: 0 auto; 
+        margin-top: 5px;
+    }
+    .home-empresas-img {
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-home {
+        flex-direction: column;
+    }
+    .titulo-home {
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .programadorIMG {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .center-button {
+        display: flex;
+        justify-content: center;
+        margin-right: 150px;
+        padding-bottom: 40px;
+    }
+    .why-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .whyimg {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .alumnos-container {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .alumno-titulo {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .alumno-p {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card-container-curso {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 300px); 
+    }
+    .card-staff-container {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: auto;
+    }
+    .home-empresas-img {
+        justify-content: center;
+    }
+    .imagenes-homemarcas {
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .card-container-curso {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-curso-children {
+        max-width: 100%;
+    }
+    .alumno2 {
+        margin-top: 5px;
+    }
+    .card-staff-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container-curso {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .imagenes-homemarcas {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
