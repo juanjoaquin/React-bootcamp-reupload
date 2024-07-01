@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import './InscriptionStyle.css';
+import './inscriptionStyle.css';
 
 
 const InscriptionPage = () => {
